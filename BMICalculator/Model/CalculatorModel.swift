@@ -6,4 +6,10 @@
 //  Copyright © 2020 InnoCric. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct CalculatorModel {
+    let value: Float
+    let advice: String
+    let color: UIColor
+}
